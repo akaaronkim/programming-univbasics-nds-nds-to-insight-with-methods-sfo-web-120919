@@ -28,4 +28,5 @@ def gross_for_director(director_data)
   end
 
   return total[director[:name]]
+  
 end
