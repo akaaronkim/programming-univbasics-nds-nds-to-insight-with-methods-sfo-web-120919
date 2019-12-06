@@ -20,10 +20,10 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-  total = 0
+  total[director_name] = 0
 
   director_data[:movies].each dp |movie|
-    total += movie[:worldwide_grosses]
+    total[director_name] += movie[:worldwide_gross]
 
   end
 
