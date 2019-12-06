@@ -23,7 +23,7 @@ def gross_for_director(director_data)
   total = 0
 
   director_data[:movies].each dp |movie|
-    total += movie[:worldwide_gross]
+    total += movie[:worldwide_grosses]
 
   end
 
