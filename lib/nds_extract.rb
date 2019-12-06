@@ -27,5 +27,5 @@ def gross_for_director(director_data)
 
   end
 
-  return total.to_i
+  return total[director_name]
 end
